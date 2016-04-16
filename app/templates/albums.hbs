@@ -1,0 +1,32 @@
+<!-- <albums-page> -->
+<h1 class="main-header">Music</h1>
+<div class="local-nav">
+  <div class="navbar-fixed-wrapper">
+    <div class="navbar">
+      <ul class="nav">
+        <li class="active"><a>Albums</a></li>
+        <li><a>Charts</a></li>
+        <li><a>Discover</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section-divider genres-section">
+  <div class="playlist-label">
+    Pick an album
+  </div>
+</div>
+<div>
+  <div class="row fivecolumns">
+    {{#each model as |album|}}
+      <div class="media">
+        {{#link-to 'album' album.id}}
+          <img alt={{album.name}} class="album" src={{album.image}}>
+        {{/link-to}}
+      </div>
+    {{/each}}
+  </div>
+</div>
+<!-- </albums-page> -->
+{{outlet}}

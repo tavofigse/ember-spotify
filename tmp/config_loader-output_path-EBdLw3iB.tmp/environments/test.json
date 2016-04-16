@@ -1,0 +1,1 @@
+{"modulePrefix":"music","environment":"test","baseURL":"/","locationType":"none","EmberENV":{"FEATURES":{}},"APP":{"LOG_ACTIVE_GENERATION":false,"LOG_VIEW_LOOKUPS":false,"rootElement":"#ember-testing","name":"music","version":"0.0.0+0bb3bb57"},"exportApplicationGlobal":true}
